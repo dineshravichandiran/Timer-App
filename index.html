@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer App</title>
+  </head>
+  <body>
+    <div class="timer-container">
+      <h1>Multiple Timers App</h1>
+      <form class="settime">
+        <label
+          >Set Time:<input
+            type="number"
+            placeholder="hh"
+            name="hours"
+            class="hours"
+            required />:<input
+            type="number"
+            placeholder="mm"
+            class="minutes"
+            name="minutes"
+            min="0"
+            max="59"
+            required />:<input
+            type="number"
+            name="seconds"
+            placeholder="ss"
+            min="0"
+            max="59"
+            class="seconds"
+            required
+        /></label>
+        <button type="submit" class="btn">Set</button>
+      </form>
+      <div class="current-timers">Current Timers</div>
+      <p class="notimer">You have no timers currently!</p>
+    </div>
+    <audio id="timerAudio">
+      <source src="mixkit-bell-notification-933.wav" type="audio/mp3" />
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>

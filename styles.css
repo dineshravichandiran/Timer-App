@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.timer-container {
+  text-align: center;
+}
+.timer {
+  margin-bottom: 10px;
+}
+.settime {
+  background-color: #34344a;
+  width: 849px;
+  height: 132px;
+  top: 132px;
+  left: 438px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.settime label {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.settime button {
+  width: 124px;
+  height: 52px;
+  top: 174px;
+  left: 1115px;
+  border-radius: 26px;
+  font-size: 20px;
+  background-color: #f0f757;
+  border: none;
+  cursor: pointer;
+}
+input {
+  color: white;
+  font-size: 24px;
+}
+.settime input {
+  width: 70px;
+  height: 30px;
+  margin-left: 100px;
+  background-color: #34344a;
+  border: none;
+}
+input::placeholder {
+  color: white;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.current-timers {
+  width: 413px;
+  height: 66px;
+  top: 313px;
+  left: 657px;
+  border-radius: 50px;
+  background-color: #39393e;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.entered-time {
+  background-color: #34344a;
+  font-size: 24px;
+  width: 849px;
+  height: 132px;
+  top: 132px;
+  left: 438px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.entered-time button {
+  width: 124px;
+  height: 52px;
+  top: 174px;
+  left: 1115px;
+  border-radius: 26px;
+  font-size: 20px;
+  background-color: #f0f757;
+  border: none;
+  cursor: pointer;
+}
+.timer-up {
+  color: black !important;
+  font-size: 30px;
+  color: white;
+  margin-left: 200px;
+  font-weight: 800px !important;
+}
+
+.stop-btn {
+  background-color: #34344a !important;
+  color: white;
+}
+.istimers {
+  display: none;
+}
